@@ -1,0 +1,65 @@
+h1{color: #c92e2e;}
+.layout{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.sidebar{ 
+    width: 25%;
+    height: 100vh; display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(114, 72, 17);
+    overflow-y: scroll;
+}
+
+.hero{ 
+    height: 100vh;
+    background-image: url(../images/jack1.png);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main{
+    width: 70%;
+}
+
+.hero div{
+    height: 30%; width: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.avatar{
+background-image: url(../images/jack2.png);
+height: 200px; width: 200px;
+background-position: center;
+border-radius: 100%;
+background-size: cover;
+
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+footer{
+    color: #470303;
+
+    
+}
