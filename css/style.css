@@ -41,7 +41,8 @@ h1{color: #c92e2e;}
 
 .avatar{
 background-image: url(../images/jack2.png);
-height: 200px; width: 200px;
+height: 400px;
+width: 400px;
 background-position: center;
 border-radius: 100%;
 background-size: cover;
